@@ -13,3 +13,20 @@ body {
     color-scheme: dark;
   }
 }
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 5px solid white;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #dddbd8, #fff);
+}
+.face::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  transform: translateZ(-1px);
+}
